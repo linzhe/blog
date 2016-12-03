@@ -2,7 +2,7 @@
 title: 机器学习基础系列：Logistic Regression
 date: 2016-12-03 17:07:49
 tags:
-    - 机器学习
+    - word2vec
 categories:
     - 机器学习
 ---
