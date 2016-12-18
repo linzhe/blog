@@ -56,3 +56,16 @@ pip install --upgrade numpy scipy wheel cryptography
 ```shell
 sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0rc0-cp27-none-linux_x86_64.whl
 ```
+
+# 4 test
+
+```shell
+ImportError: /lib64/libc.so.6: version `GLIBC_2.16' not found (required by /usr/local/lib/python2.7/site-packages/tensorflow/python/_pywrap_tensorflow.so)
+Error importing tensorflow.  Unless you are using bazel,
+you should not try to import tensorflow from its source directory;
+please exit the tensorflow source tree, and relaunch your python interpreter
+from there.
+
+## 解决方法
+下载新版本glibc安装
+```
